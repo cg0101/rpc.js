@@ -88,7 +88,10 @@ zRPC.prototype.connect = function(port, host, callback){
 				remoteObj[p] = getRemoteCallFunction(p, self.callbacks, connection);
 				console.log(self.callbacks)
 			}
-		
+			console.log('----  callback remoteObj start  ---- ');
+			console.log(descrCmd)
+			console.log(remoteObj)
+			console.log('----  callback remoteObj end ---- ');
 			callback(remoteObj, connection);
 		}
 	};

@@ -52,7 +52,8 @@ function next(){
 		});
 }
 
-intervalId = setInterval(next, 1000);
+// intervalId = setInterval(next, 100000);
+next();
 
 //rpc.connect(6556, 'localhost', function(remote, conn){
 //	remote.combine(1, 2, function(res){
