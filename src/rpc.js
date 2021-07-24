@@ -86,7 +86,6 @@ zRPC.prototype.connect = function(port, host, callback){
 				console.log('----  getRemoteCallFunction ---- ');
 				console.log(self.callbacks)
 				remoteObj[p] = getRemoteCallFunction(p, self.callbacks, connection);
-				console.log(self.callbacks)
 			}
 			console.log('----  callback remoteObj start  ---- ');
 			console.log(descrCmd)
@@ -228,6 +227,7 @@ function getRemoteCallFunction(cmdName, callbacks, connection){
 		var newCmd = command(cmdName, {id: id, args: args});
 		// console.log('newCmd');
 		// console.log(newCmd)
+		//服务端消化
 		connection.write(newCmd);
 	};
 }
