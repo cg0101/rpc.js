@@ -1,7 +1,7 @@
-# zRPC
+# rpc.js
 
 ```
-npm i 
+npm i
 npm run server
 npm run client
 ```
