@@ -1,18 +1,18 @@
 {
-  "name": "zRPC",
-  "version": "1.0.0",
-  "description": "``` npm i  npm run server npm run client ```",
-  "main": "index.js",
-  "dependencies": {
-    "step": "^1.0.0"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "client":"node ./src/client",
-    "server":"node ./src/client"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "name": "rpc.js",
+    "version": "1.0.0",
+    "description": "``` npm i  npm run server npm run client ```",
+    "main": "index.js",
+    "dependencies": {
+        "step": "^1.0.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "client": "node ./src/client",
+        "server": "node ./src/client"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
 }
